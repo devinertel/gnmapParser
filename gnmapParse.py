@@ -61,7 +61,7 @@ def main (filename, protocols):
 if __name__ == '__main__':
 
     header = "Gnmap Parser \n"
-    usage  = "gnmapParser.py [--OPTIONS] *.gnmap"
+    usage  = "gnmapParse.py [--OPTIONS] *.gnmap"
     parser = OptionParser(usage = usage, description="Protocol parser for gnmap files. Default protocols: http,ssh,telnet,ftp")
 
     parser.add_option('--protocols', help='Parse Protocols: "http","ssh","telnet","ftp","pop3","domain","smtp"')
